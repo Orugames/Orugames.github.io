@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Arturo Serrano | Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Galindo|Skranji|Ubuntu|Unica+One" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/scroll.js"></script>
+    <script src="scripts/parallax.js"></script>
+
+    <meta name="description" content="This is the portfolio of Arturo Serrano" />
+    <meta name="author" content="Arturo Serrano" />
+
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="http://www.leah-lindner.com/img/graphics/favicon.png" />
+    <link rel="image_src" type="image/png" href="http://www.leah-lindner.com/img/graphics/favicon.png" />
+    <link rel="icon" type="image/png" href="http://www.leah-lindner.com/img/graphics/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+</head>
+<body>
+    <!--MENU-->
+    <nav class="MENU" id="top">
+        <div class="lines"></div>
+        <button onclick="toggleMenu()" class="menuBtn">Menu</button>
+        <div id="menList" class="list">
+            <a href="#home">
+                <img class="menImg" src="images/home.png" alt="home button or back to top" />
+                <div class="menTxt"><h3>Home</h3></div>
+            </a>
+            <a onclick="toggleMenu()" href="#portfolio"><div><h3>Portfolio</h3></div></a>
+            <a onclick="toggleMenu()" href="#resume"><div><h3>Resume</h3></div></a>
+            <a onclick="toggleMenu()" href="#contact"><div><h3>Contact</h3></div></a>
+            <!-- <a onclick="toggleMenu()" href="/blog/"><div><h3>Blog</h3></div></a> -->
+        </div>
+    </nav>
+    <div id="home"></div>
+
+    <!--HOME-->
+    <div id="title">
+        <hgroup>
+            <h1>Arturo Serrano</h1>
+            <h2>Unity developer</h2>
+            <h2>Electronics engineer</h2>
+        </hgroup>
+    </div>
+    <div class="parallax" style="height: 317.9px;">
+        <img src="images/banner.png" alt="sciFi gun" />
+    </div>
+
+    <!--PORTFOLIO-->
+    <div id="portfolio">
+        <div class="SEPARATOR">
+            <div><h3>Portfolio</h3></div>
+        </div>
+        <section id="portfolioProjects">
+            <a href="https://play.google.com/store/apps/details?id=oru.orugames.reddux&hl=es">
+                <div class="pBorder">
+                    <article style="background-image:url(images/Reddux1.png)">
+                        <div class="description">
+                            <h4>Reddux</h4>
+                            <div>
+                                <p>
+								Reddux is an arcade game fully made in Unity.
+                                    This is my first game published on the Play Store, you can also
+									You can download it on this link.
+                                </p>
+                            </div>
+                            <p class="team">
+                                Personal Project
+                            </p>
+                        </div>
+                        <div style="background-image:url(images/Reddux2.png)" class="hov"></div>
+                    </article>
+                </div>
+            </a>
+            <a href="https://developer.vuforia.com/">
+                <div class="pBorder">
+                    <article style="background-image:url(images/TFG1.jpg)">
+                        <div class="description">
+                            <h4>AR Rectifier</h4>
+                            <div>
+                                <p>
+                                    This is my first project using augmented reality. It is an educational application aimed towards the
+									students of ETSIDI to help them learn about all the different types of rectifiers in an easy, modular
+									and interactive experience.<br />
+									It was my final project at university with an 9.5 over 10.<br />
+                                    It was made in Unity with Vuforia SDK.
+                                </p>
+                            </div>
+                            <p class="team">
+                                University final project
+                            </p>
+                        </div>
+                        <div style="background-image:url(images/TFG2.png)" class="hov"></div>
+                    </article>
+                </div>
+            </a>
+            <a href="http://www.ctingenieros.es/index.php/home">
+                <div class="pBorder">
+                    <article style="background-image:url(images/CT1.jpg)">
+                        <div class="description">
+                            <h4>AR Developer</h4>
+                            <div>
+                                <p>
+                                    I currently work in CT Ingenieros as an augmented reality developer..<br />
+                                    Our services are aimed at engineering companies, medical and military fields.
+                                    
+                                </p>
+                            </div>
+                            <p class="team">
+                                Current Workplace
+                        </div>
+                        <div style="background-image:url(images/CT2.jpg)" class="hov"></div>
+                    </article>
+                </div>
+            </a>
+            <a href="https://www.blender.org/ target="_blank">
+                <div class="pBorder">
+                    <article style="background-image:url(images/Blender1.png)">
+                        <div class="description">
+                            <h4>3D Modelling</h4>
+                            <div>
+                                <p>
+                                    I've also started to learn 3D Modelling in Blender for all my projects. <br />
+									I've created several assets myself currently used in the projects developed at my job. <br />
+									Currently my goal is to be able to create hard surface models with enough 
+									quality to be included in my own projects.
+                                </p>
+                            </div>
+                            <p class="team">
+                                Currently studying
+                            </p>
+                        </div>
+                        <div style="background-image:url(images/Blender2.png)" class="hov"></div>
+                    </article>
+                </div>
+            </a>
+        </section>
+    </div>
+
+    <!--OTHER PROJECTS-->
+  <!--  <div id="otherProjects">
+        <div class="SEPARATOR">
+            <div><h3>OTher ProjecTs</h3></div>
+        </div>
+        <section>
+            <a href="/blog/atmospheric-entry/">
+                <div class="pBorder">
+                    <article style="background-image:url(img/portfolio/gs.JPG)">
+                        <div class="description">
+                            <h4>Reentry Shader</h4>
+                            <p class="team">Personal Project</p>
+                        </div>
+                        <div style="background-image:url(img/portfolio/gsHover.JPG)" class="hov"></div>
+                    </article>
+                </div>
+            </a>
+            <a href="/blog/navmesh/">
+                <div class="pBorder">
+                    <article style="background-image:url(img/portfolio/path.jpg)">
+                        <div class="description">
+                            <h4>NavMesh | Dx Graphics</h4>
+                            <p class="team">Personal Project</p>
+                        </div>
+                        <div style="background-image:url(img/portfolio/pathHover.jpg)" class="hov"></div>
+                    </article>
+                </div>
+            </a>
+            <a href="/blog/light_what/">
+                <div class="pBorder">
+                    <article style="background-image:url(img/portfolio/lw.jpg)">
+                        <div class="description">
+                            <h4>Pathtracer</h4>
+                            <p class="team">Personal Project</p>
+                        </div>
+                        <div style="background-image:url(img/portfolio/lwHover.jpg)" class="hov"></div>
+                    </article>
+                </div>
+            </a>
+            <a href="/blog/dm-missilebase/">
+                <div class="pBorder">
+                    <article style="background-image:url(img/portfolio/le.jpg)">
+                        <div class="description">
+                            <h4>Dm-Missilebase</h4>
+                            <p class="team">Personal Project</p>
+                        </div>
+                        <div style="background-image:url(img/portfolio/leHover.jpg)" class="hov"></div>
+                    </article>
+                </div>
+            </a>
+            <a href="/blog/pbr_assets/">
+                <div class="pBorder">
+                    <article style="background-image:url(img/portfolio/pbr.jpg)">
+                        <div class="description">
+                            <h4>PBR Assets</h4>
+                            <p class="team">Personal Project</p>
+                        </div>
+                        <div style="background-image:url(img/portfolio/pbrHover.JPG)" class="hov"></div>
+                    </article>
+                </div>
+            </a>
+            <a href="/blog/code_samples/">
+                <div class="pBorder">
+                    <article style="background-image:url(img/portfolio/code.jpg)">
+                        <div class="description">
+                            <h4>&lt; Code Samples &gt;</h4>
+                        </div>
+                        <div style="background-image:url(img/portfolio/codeHover.jpg)" class="hov"></div>
+                    </article>
+                </div>
+            </a>
+        </section>
+    </div>
+ -->
+    <!--RESUME-->
+    <div id="resume">
+        <div class="SEPARATOR">
+            <div><h3>Resume</h3></div>
+        </div>
+        <section>
+            <aside id="bio">
+                <div id="portrait">
+                    <img src="images/Arturo.png" alt="picture of me" />
+                </div>
+                <div id="summary">
+                    <p>
+                        Hi, this is my portfolio in which you can see all my past and current work.<br />
+                        I love to program and make use in it of the mathematical abilities I've learned in my studies as an electronics engineer.<br /><br />
+                        I discovered Unity on my third year in college and since then I've been creating applications in it everyday.<br />
+                        Fascinated by the AR/VR development, I focused my work in AR apps and videogames with interesting mechanics.<br /><br />
+                        Currently working developing several AR apps at CT, I work on my free time honing my skills as an Unity game developer.
+                    </p>
+                </div>
+                <div id="pdf">
+                    <a href="images/CV.pdf" target="_blank" id="pdfContainer">
+                        <article id="pdfBg" style="background-image:url(images/CV.png)">
+                            <div class="description">
+                                <h4>PDF Resume</h4>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </aside>
+            <article class="resV" id="lanV">
+                <article id="languages" class="resBox">
+                    <h4>Programming Languages</h4>
+                    <hr />
+                    <h5><span>General</span></h5>
+                    <table class="imgT">
+                        <tr>
+						    <td><span class="tip">3 years of experience</span><img src="images/logos/cs.png" alt="c# icon" /><p>C#</p></td>
+                            <td><span class="tip">4 years of experience</span><img src="images/logos/cpp.png" alt="c++ icon" /><p>C++</p></td>
+                            <td><span class="tip">2 years of experience</span><img src="images/logos/python.png" alt="python icon" /><p>Python</p></td>
+                        </tr>
+                    </table>
+                    <hr />
+                    
+                    <h5><span>Web</span></h5>
+                    <table class="imgT">
+                        <tr>
+                            <td><span class="tip">2 years experience</span><img src="images/logos/html.png" alt="html 5 icon" /><p>HTML 5</p></td>
+                            <td><span class="tip">2 years experience</span><img src="images/logos/css.png" alt="css 3 icon" /><p>CSS 3</p></td>
+                            <td><span class="tip">2 years experience</span><img src="images/logos/js.png" alt="javascript icon" /><p>Javascript</p></td>
+                            <td><span class="tip">1 years of experience</span><img src="images/logos/angular.png" alt="Angular icon" /><p>Angular</p></td>
+                        </tr>
+                    </table>
+                    <hr />
+                    <h5><span>Other</span></h5>
+                    <table class="imgT">
+                        <tr>
+                            <td><span class="tip">6 months. Last work</span><span class="noIcon">Solidity</span></td>
+                            <td><span class="tip">Currently learning</span><span class="noIcon">OpenCV</span></td>
+                        </tr>
+                    </table>
+                    <h4 id="human">Languages</h4>
+                    <table class="imgT">
+                        <tr>
+                            <td><span class="tip">Native</span><span class="noIcon">Spanish</span></td>
+                            <td><span class="tip">C1 level</span><span class="noIcon">English</span></td>
+                        </tr>
+                    </table>
+                </article>
+            </article>
+            <article class="resV">
+                <article id="experience" class="resBox">
+                    <h4>Experience</h4>
+                    <h5>AR developer at CT Ingenieros</h5>
+                    <ul>
+                        <li>Developing several AR applications for industry uses</li>
+                        <li>Focus on creative thinking, programming and developing the team from the ground up</li>
+                        <li>In depth experience with Unity and AR SDKs</li>
+                    </ul>
+                    <h5>Blockchain dev at Tribalyte</h5>
+                    <ul>
+                        <li>Work on R&D researching new apps based on a blockchain back-end.</li>
+                        <li>Full-stack development. Front developed on Javascript and then Angular. Back on Solidity.</li>
+                    </ul>
+                    <h5>Game journalist at Teknoconsolas</h5>
+                </article>
+                <article id="graphProg" class="resBox">
+                    <h4>Electronics engineering</h4>
+                    <p>
+                        Initially fascinated by robotics and automation, I've developed several projects made with Arduino
+						and Raspberry Pi focused on programming and IoT developments.
+                    </p>
+                </article>
+            </article>
+            <article class="resV">
+                <article id="education" class="resBox">
+                    <h4>Education</h4>
+                    <h5>UPM - ETSIDI</h5>
+                    <ul>
+                        <li>Degree in electronics engineering.</li>
+                        <li>Specialized in robotics, automation and programming<br />
+
+                        </li>
+                        <li>Created several projects during my studies centered around programming, videogames and IoT</li>
+						<li>9.5 grade in my final project developed with Unity</li>
+                    </ul>
+                    
+                </article>
+                <article id="gameDev" class="resBox">
+                    <h4>Game Development</h4>
+                    <p>
+                        Videogames and game development is my biggest passion. <br />
+						Working and studying every day, my main focus is in programming, innovative gameplay experiences and world building.
+                    </p>
+                </article>
+            </article>
+            <article class="resV">
+                <article id="engApiSof" class="resBox">
+                    <h4>Engines</h4>
+                    <table class="imgT">
+                        <tr>
+                            <td><span class="tip">3 years of experience</span><img src="images/logos/unity.png" alt="unity icon" /><p>Unity</p></td>
+                            <td><span class="tip">Basics</span><img src="images/logos/godot.png" alt="godot icon" /><p>Godot</p></td>
+                        </tr>
+                    </table>
+                    <h4>AR/VR SDKs</h4>
+                    <table class="imgT">
+                        <tr>
+                            <td><span class="tip">1 year of experience</span><img src="images/logos/vuforia.png" alt="Vuforia icon" /><p>Vuforia</p></td>
+                            <td><span class="tip">6 months of experience</span><img src="images/logos/arcore.png" alt="ARCore icon" /><p>ARCore</p></td>
+                            <td><span class="tip">6 months of experience</span><img src="images/logos/arkit.png" alt="ARKit icon" /><p>ARKit</p></td>
+						</tr>
+					</table>
+					<table class="imgT">
+						<tr>
+                            <td><span class="tip">6 months of experience</span><img src="images/logos/unity.png" alt="ARFoundation icon" /><p>ARFoundation</p></td>
+                            <td><span class="tip">3 months of experience</span><img src="images/logos/steamVR.png" alt="SteamVR icon" /><p>SteamVR</p></td>
+                        </tr>
+                    </table>                    
+                    <h4>Software</h4>
+                    <table class="imgT">
+                        <tr>
+                            <td><span class="tip">4.5 years of experience</span><img src="images/logos/vs.png" alt="visual studio icon" /><p>VisualStudio</p></td>
+                            <td><span class="tip">3.5 years of experience</span><img src="images/logos/git.png" alt="git icon" /><p>Git</p></td>
+                        </tr>
+                    </table>
+                    <table class="imgT">
+                        <tr>
+                            <td><span class="tip">1 year of experience</span><img src="images/logos/blender.png" alt="blender 3d icon" /><p>Blender</p></td>
+                            <td><span class="tip">1 year of experience</span><img src="images/logos/metamask.png" alt="blender 3d icon" /><p>Metamask</p></td>
+                        </tr>
+                    </table>
+                </article>
+            </article>
+        </section>
+    </div>
+
+    <!--CONTACT-->
+    <div id="contact">
+        <div class="SEPARATOR">
+            <div><h3>ConTacT</h3></div>
+        </div>
+        <section>
+            <div id="looking">
+                <h2>You can contact me at</h2>
+            </div>
+            <a href="mailto:asm.arturo@gmail.com" id="mailA">
+                <div id="mail">
+                    <p>asm.arturo@gmail.com</p>
+                </div>
+            </a>
+            <div id="links">
+                <a href="https://www.linkedin.com/in/arturo-serrano-mart%C3%ADnez-9b9592148/" target="_blank">
+                    <div>
+                        <img src="images/logos/linkedin.png" alt="link to  linkedin page" />
+                        <img src="images/logos/linkedinHover.png" alt="linked in highlighted icon" />
+                    </div>
+                </a>
+
+                <a href="https://github.com/Orugames" target="_blank">
+                    <div>
+                        <img src="images/logos/github.png" alt="link to  github page" />
+                        <img src="images/logos/githubHover.png" alt="github highlighted icon" />
+                    </div>
+                </a>
+
+            </div>
+        </section>
+        <div class="SEPARATOR">
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>
